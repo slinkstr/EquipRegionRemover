@@ -84,7 +84,7 @@ int WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPrevInst, LPSTR lpCmd, int nShow)
     // alert user
     MessageBox(0,
         output,
-        (LPCWSTR)L"EquipRegionRemover",
+        L"EquipRegionRemover",
         MB_OK);
 
     // exit
